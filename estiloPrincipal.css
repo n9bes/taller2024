@@ -1,0 +1,170 @@
+.aclaracion {
+    background-color: rgb(245, 245, 245);
+    margin-top: 40px;
+    padding: 60px 20px;
+    color: #0195C8;
+    font-weight: 400;
+}
+
+.aclaracion-cartas {
+    width: 80%;
+    max-width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.aclaracion-carta {
+    display: flex;
+    align-items: center; /* Para poner la imagen a la izquierda del texto de cada carta */
+}
+
+.aclaracion-carta img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.destacados{
+    border-top: 1px solid rgb(226, 226, 226);
+    margin-top: 40px;
+    height: 1120px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.destacados h1, .novedades h1{
+    color:#0195C8;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.newslatter-texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 40px;
+}
+
+.newslatter-texto h2{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newslatter-texto h1{
+    font-weight: 600;
+}
+
+.novedades{
+    border-top: 1px solid rgb(226, 226, 226);
+    margin-top: 40px;
+    height: 680px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.newslatter{
+    height: 400px;
+    background-color:#0195C8;
+    margin-bottom: 40px;
+}
+
+.imagen-ilustrativa-end{
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.newslatter-barra{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newslatter-input{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 15px;
+    border: 2px solid #76d6ff;
+    border-radius: 21px;
+    outline: none;
+    min-width: 800px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.newslatter-input::placeholder{
+    color: rgb(148, 146, 146);
+}
+
+.newslatter-submit{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 50px;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 55px;
+    outline: none;
+    border: 2px solid #ffffff; 
+    border-radius: 21px; 
+    background-color: #0195C8;  
+    color: white;
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s;
+}
+
+.newslatter-submit:hover{
+    background-color: #ffffff;
+    border-color:#0195C8;
+    color:#0195C8;
+}
+
+
+.newslatter-input:focus {
+    border-color: #0073a5; /* Cambia el color del borde cuando se enfoca */
+}
+
+.imagen-ilustrativa-end{
+    height: 400px;
+}
+
+.destacados-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-gap: 45px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.novedades-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-gap: 45px;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.carta-producto {
+    padding: 200px 20px;
+    background-color: #d8d8d8;
+    border: 1px solid #0195C8;
+}
+
+
+
+.cloud-vid {
+    height: 200px; /* Cambia esta altura según tus necesidades */
+    width: auto; /* Deja que el ancho del contenedor se ajuste automáticamente */
+}
+
+.cloud-vid video {
+    width: 100%; /* El video ocupa todo el ancho del contenedor */
+    height: 100%; /* El video ocupa toda la altura del contenedor */
+    object-fit: cover; /* Ajusta el video para cubrir todo el contenedor */
+}
+
+
+
+
