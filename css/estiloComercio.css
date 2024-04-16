@@ -1,0 +1,140 @@
+.comercio-main{
+    color: #0195C8;
+}
+
+.comercio-header{
+    max-width: 100%;
+    background-color: #0195C8;
+    color: #ffffff;
+    margin: auto;
+}
+
+.comercio-header{
+    margin: auto;
+}
+
+.comercio-header-div2{
+    margin: auto;
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    padding: 40px 0;
+}
+
+@media only screen and (max-width: 768px){
+    .comercio-hTexto h2{
+        display: none;
+    }
+
+    .comercio-header-div2{
+        margin: auto;
+
+    }
+}
+
+.comercio-header-img{
+    padding-left: 50px;
+}
+
+.comercio-hTexto h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.comercio-cards{
+    max-width: 70%;
+    margin: auto;
+}
+
+.comercio-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: top;
+    padding: 40px 0px;
+}
+
+.imagen-titulo{
+    display: grid;
+    place-items: center;
+}
+
+.imagen-titulo h1{
+    color: #1d76bb;
+    margin-bottom: 30px;
+}
+
+.tipos-pago img{
+    margin-bottom: 30px;
+}
+
+.comercio-logo{
+    margin-bottom: 20px;
+    /* transition: transform .3s; */
+}
+
+/* .comercio-logo:hover{
+    transform: scale(1.2);
+} */
+
+.comercio-main li{
+    list-style: none;
+}
+
+.pago-li2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-gap: 10px;
+}
+
+.delivery-li2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin-left: 15px;
+    grid-gap: 10px;
+}
+
+.pago-li2 img, .delivery-li2 img{
+    border-radius: 7px;
+}
+
+
+.pago-li1{
+    margin-bottom: 80px;
+}
+
+.delivery-li1{
+    margin-bottom: 80px;
+}
+
+.pago-li2 img , .delivery-li2 img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26); /* Agrega una sombra suave */
+}
+
+.comercio-separador{
+    margin-bottom: 40px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.tipos-pago, .tipos-entrega, .tipos-delivery{
+    padding-top: 40px;
+}
+
+.tipos-pago:hover, .tipos-entrega:hover, .tipos-delivery:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.tipos-pago:hover::after, .tipos-entrega:hover::after, .tipos-delivery:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #0195C8;
+}
+
+
